@@ -102,7 +102,7 @@ a:hover {
 }
 
 .overlay-mf {
-    background-color: #0078ff;
+    background-color: rgb(235, 69, 69);
 }
 
 .overlay-mf {
@@ -234,6 +234,31 @@ a:hover {
     .box-shadow-full {
         padding: 3rem;
     }
+}
+
+
+/* Experience  */
+
+#experienceSection {
+    height: 200px;
+}
+
+#experienceText {
+    font-size: 1rem;
+    color: black;
+    transition: font-size 0.5s, color 0.5s;
+}
+
+#experienceText.big {
+    font-size: 4rem;
+    color: #800;
+    width: 20rem;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(168, 3, 3);
+    /* background-color: rgb(17, 17, 17); */
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    /* Glowing effect */
 }
 
 

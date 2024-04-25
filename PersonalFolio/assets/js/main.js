@@ -163,6 +163,23 @@
         });
     });
 
+    // Experience js 
+    document.addEventListener('DOMContentLoaded', function() {
+        window.addEventListener('scroll', function() {
+            var experienceText = document.getElementById('experienceText');
+            var scrollPosition = window.scrollY || window.pageYOffset;
+
+            if (scrollPosition > 500) { // Adjust the scroll position as needed
+                experienceText.innerText = "1.5 years...";
+                experienceText.classList.add('big');
+            } else {
+                experienceText.innerText = "";
+                experienceText.classList.remove('big');
+            }
+        });
+    });
+
+
     /**
      * Scroll with ofset on page load with hash links in the url
      */
