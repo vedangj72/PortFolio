@@ -347,6 +347,21 @@ a:hover {
 }
 
 
+/* To add Hover info-circle */
+
+.info-text {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.info-link:hover+.bi-info-circle+.info-text {
+    display: block;
+}
+
+
 /*------/ Ul resect /------*/
 
 .ul-resect,
@@ -1173,6 +1188,7 @@ a:hover {
 .portfolio-details .portfolio-details-slider .swiper-pagination {
     margin-top: 20px;
     position: relative;
+    background-color: #050505;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
@@ -1243,7 +1259,7 @@ a:hover {
 }
 
 .testimonial-box .author {
-    color: #fff;
+    color: #050505;
     text-transform: uppercase;
     font-weight: 600;
     margin: 1rem 0;
