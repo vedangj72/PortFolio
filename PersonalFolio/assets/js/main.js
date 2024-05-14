@@ -170,7 +170,7 @@
             var scrollPosition = window.scrollY || window.pageYOffset;
 
             if (scrollPosition > 500) { // Adjust the scroll position as needed
-                experienceText.innerText = "1 year...";
+                experienceText.innerText = "1 + year";
                 experienceText.classList.add('big');
             } else {
                 experienceText.innerText = "";
